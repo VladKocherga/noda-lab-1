@@ -21,8 +21,29 @@ module.exports.phoneValid = function phoneValid(number, shift) {
     return "\n" + arr.join("");
   }
   if (shift == 2) {
-    arr = new Set([...myArray].filter((x) => !toRemove.has(x)));
+    let arr = [];
+    const myArray = number
+      .split(".")
+      .splice(0, 1)
+      .join("")
+      .replace(/\D/g, "")
+      .split("");
+    for (let i = 0; i < myArray.length; i++) {
+      myArray[i] = Number(myArray[i]);
+    }
 
-    return Array.from(difference);
+    let toRemove = number
+      .split(".")
+      .splice(1, 1)
+      .join("")
+      .replace(/\D/g, "")
+      .split("");
+    for (let i = 0; i < toRemove.length; i++) {
+      toRemove[i] = Number(toRemove[i]);
+    }
+    console.log(toRemove);
+    let difference = myArray.filter((u) => !toRemove.includes(u));
+    arr.push(difference);
+    return arr.join("");
   }
 };
