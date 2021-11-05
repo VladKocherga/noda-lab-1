@@ -1,5 +1,9 @@
 # noda-lab-1
 
+Запустить приложение
+$ git clone https://github.com/vladkocherga/https://github.com/VladKocherga/noda-lab-1
+$ git checkout lab1
+$ npm i
 Пример использования:
 Инструмент CLI принимает 4 варианта (короткий псевдоним и полное имя):
 
@@ -7,3 +11,7 @@
 -i, --input: входной файл
 -o, --output: выходной файл
 -a, --transform: в номер
+
+input.txt в output.txt в номер телефона
+
+node phone.js -t 1 -i "./input.txt" -o "./output.txt" -a transform
