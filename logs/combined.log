@@ -1,0 +1,70 @@
+info: Incoming Request
+    23.12.2021, 22:52:11
+    GET - /favicon.ico
+    body:    {}
+    query:   {}
+    params:  {}
+    
+info: Incoming Request
+    23.12.2021, 22:52:34
+    GET - /departments
+    body:    {}
+    query:   {}
+    params:  {}
+    
+info: Incoming Request
+    23.12.2021, 23:53:03
+    GET - /departments
+    body:    {}
+    query:   {}
+    params:  {}
+    
+info: Incoming Request
+    23.12.2021, 23:53:54
+    GET - /departments
+    body:    {}
+    query:   {}
+    params:  {}
+    
+info: Incoming Request
+    23.12.2021, 23:55:16
+    GET - /departments
+    body:    {}
+    query:   {}
+    params:  {}
+    
+info: Incoming Request
+    23.12.2021, 23:56:14
+    GET - /departments
+    body:    {}
+    query:   {}
+    params:  {}
+    
+info: Incoming Request
+    23.12.2021, 23:56:40
+    POST - /departments
+    body:    {}
+    query:   {}
+    params:  {}
+    
+info: Incoming Request
+    23.12.2021, 23:56:41
+    POST - /departments
+    body:    {}
+    query:   {}
+    params:  {}
+    
+info: Incoming Request
+    23.12.2021, 23:56:48
+    POST - /departments?2=%D1%84%D1%8B%D0%B2
+    body:    {}
+    query:   {"2":"фыв"}
+    params:  {}
+    
+info: Incoming Request
+    23.12.2021, 23:56:52
+    GET - /departments?2=%D1%84%D1%8B%D0%B2
+    body:    {}
+    query:   {"2":"фыв"}
+    params:  {}
+    
